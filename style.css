@@ -1,0 +1,19 @@
+.card {
+  border-radius: 16px;
+  background-color: #fff0f5;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+#features .card-title,
+#pricing .card-title {
+  color: #b30059;
+  font-weight: bold;
+}
+
+#gallery img {
+  transition: transform 0.3s ease;
+}
+
+#gallery img:hover {
+  transform: scale(1.05);
+}
